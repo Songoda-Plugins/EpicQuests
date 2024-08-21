@@ -149,7 +149,7 @@ public class QuestTask extends BukkitRunnable {
                     bossBar.setTitle(plugin.getLocale().getMessage("general.bossbar.amount")
                             .processPlaceholder("title", title)
                             .processPlaceholder("current", current)
-                            .processPlaceholder("goal", goal).getMessage());
+                            .processPlaceholder("goal", goal).toText());
                     bossBar.setProgress((double) current / goal);
                 }
             }
