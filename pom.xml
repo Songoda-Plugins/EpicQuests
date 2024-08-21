@@ -6,7 +6,7 @@
 
     <groupId>com.songoda</groupId>
     <artifactId>EpicQuests-Plugin</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.2.0</version>
 
     <name>EpicQuests</name>
     <description>Create quests and stories your way with our extremely customizable and simplistically designed system</description>
