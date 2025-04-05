@@ -1,12 +1,12 @@
 package com.songoda.epicquests.story.quest;
 
-import com.craftaro.core.data.SQLDelete;
-import com.craftaro.core.data.SQLInsert;
-import com.craftaro.core.data.SavesData;
+import com.songoda.core.data.SQLDelete;
+import com.songoda.core.data.SQLInsert;
+import com.songoda.core.data.SavesData;
 import com.songoda.epicquests.Region.Region;
 import com.songoda.epicquests.story.Story;
 import com.songoda.epicquests.story.quest.reward.AbstractReward;
-import com.craftaro.third_party.org.jooq.DSLContext;
+import com.songoda.third_party.org.jooq.DSLContext;
 import org.bukkit.entity.Player;
 
 import java.util.*;

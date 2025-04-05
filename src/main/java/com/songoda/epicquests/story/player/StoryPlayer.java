@@ -1,12 +1,12 @@
 package com.songoda.epicquests.story.player;
 
-import com.craftaro.core.data.SQLDelete;
-import com.craftaro.core.data.SQLInsert;
-import com.craftaro.core.data.SavesData;
+import com.songoda.core.data.SQLDelete;
+import com.songoda.core.data.SQLInsert;
+import com.songoda.core.data.SavesData;
 import com.songoda.epicquests.story.quest.ActiveQuest;
 import com.songoda.epicquests.story.quest.Objective;
 import com.songoda.epicquests.story.quest.Quest;
-import com.craftaro.third_party.org.jooq.DSLContext;
+import com.songoda.third_party.org.jooq.DSLContext;
 
 import java.util.ArrayList;
 import java.util.Collections;

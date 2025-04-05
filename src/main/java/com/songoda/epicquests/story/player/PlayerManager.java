@@ -1,14 +1,14 @@
 package com.songoda.epicquests.story.player;
 
-import com.craftaro.core.data.LoadsData;
-import com.craftaro.core.data.SQLSelect;
+import com.songoda.core.data.LoadsData;
+import com.songoda.core.data.SQLSelect;
 import com.songoda.epicquests.story.Story;
 import com.songoda.epicquests.story.StoryManager;
 import com.songoda.epicquests.story.quest.ActiveQuest;
 import com.songoda.epicquests.story.quest.Quest;
-import com.craftaro.third_party.org.jooq.DSLContext;
-import com.craftaro.third_party.org.jooq.impl.DSL;
-import com.craftaro.third_party.org.jooq.impl.SQLDataType;
+import com.songoda.third_party.org.jooq.DSLContext;
+import com.songoda.third_party.org.jooq.impl.DSL;
+import com.songoda.third_party.org.jooq.impl.SQLDataType;
 import org.bukkit.OfflinePlayer;
 
 import java.util.*;

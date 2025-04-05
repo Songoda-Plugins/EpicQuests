@@ -3,7 +3,7 @@ package com.songoda.epicquests.utils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TextUtils extends com.craftaro.core.utils.TextUtils {
+public class TextUtils extends com.songoda.core.utils.TextUtils {
     public static List<String> condense(String message) {
         ArrayList<String> lore = new ArrayList<>();
         if (message == null) {

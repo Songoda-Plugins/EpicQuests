@@ -1,14 +1,14 @@
 package com.songoda.epicquests.story.quest.reward.rewards;
 
-import com.craftaro.core.data.SQLDelete;
-import com.craftaro.core.data.SQLInsert;
-import com.craftaro.core.gui.Gui;
+import com.songoda.core.data.SQLDelete;
+import com.songoda.core.data.SQLInsert;
+import com.songoda.core.gui.Gui;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.gui.GuiCommands;
 import com.songoda.epicquests.story.quest.Quest;
 import com.songoda.epicquests.story.quest.reward.AbstractReward;
 import com.songoda.epicquests.story.quest.reward.RewardType;
-import com.craftaro.third_party.org.jooq.DSLContext;
+import com.songoda.third_party.org.jooq.DSLContext;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;

@@ -1,8 +1,8 @@
 package com.songoda.epicquests.story;
 
-import com.craftaro.core.data.LoadsData;
-import com.craftaro.core.data.SQLSelect;
-import com.craftaro.core.utils.ItemSerializer;
+import com.songoda.core.data.LoadsData;
+import com.songoda.core.data.SQLSelect;
+import com.songoda.core.utils.ItemSerializer;
 import com.songoda.epicquests.Region.Region;
 import com.songoda.epicquests.story.quest.Objective;
 import com.songoda.epicquests.story.quest.Quest;
@@ -13,9 +13,9 @@ import com.songoda.epicquests.story.quest.reward.AbstractReward;
 import com.songoda.epicquests.story.quest.reward.rewards.CommandReward;
 import com.songoda.epicquests.story.quest.reward.rewards.ItemReward;
 import com.songoda.epicquests.story.quest.reward.rewards.XpReward;
-import com.craftaro.third_party.org.jooq.DSLContext;
-import com.craftaro.third_party.org.jooq.impl.DSL;
-import com.craftaro.third_party.org.jooq.impl.SQLDataType;
+import com.songoda.third_party.org.jooq.DSLContext;
+import com.songoda.third_party.org.jooq.impl.DSL;
+import com.songoda.third_party.org.jooq.impl.SQLDataType;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.*;

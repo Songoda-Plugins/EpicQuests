@@ -1,7 +1,7 @@
 package com.songoda.epicquests.story.quest.reward;
 
-import com.craftaro.core.data.SavesData;
-import com.craftaro.core.gui.Gui;
+import com.songoda.core.data.SavesData;
+import com.songoda.core.gui.Gui;
 import com.songoda.epicquests.story.quest.Quest;
 import org.bukkit.entity.Player;
 

@@ -1,15 +1,15 @@
 package com.songoda.epicquests.story.quest.action.actions;
 
-import com.craftaro.core.data.SQLDelete;
-import com.craftaro.core.data.SQLInsert;
-import com.craftaro.core.utils.TextUtils;
+import com.songoda.core.data.SQLDelete;
+import com.songoda.core.data.SQLInsert;
+import com.songoda.core.utils.TextUtils;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.data.ActionDataStore;
 import com.songoda.epicquests.story.quest.Objective;
 import com.songoda.epicquests.story.quest.action.AbstractAction;
 import com.songoda.epicquests.story.quest.action.ActionType;
 import com.songoda.epicquests.story.quest.action.ActiveAction;
-import com.craftaro.third_party.org.jooq.DSLContext;
+import com.songoda.third_party.org.jooq.DSLContext;
 import net.citizensnpcs.api.CitizensAPI;
 import net.citizensnpcs.api.npc.NPC;
 import org.bukkit.entity.Entity;

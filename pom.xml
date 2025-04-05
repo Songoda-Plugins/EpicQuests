@@ -7,7 +7,7 @@
 
     <name>EpicQuests</name>
     <description>Create quests and stories your way with our extremely customizable and simplistically designed system</description>
-    <url>https://craftaro.com/marketplace/product/364</url>
+    <url>https://songoda.com/product/epicquests-10</url>
 
     <properties>
         <maven.compiler.release>8</maven.compiler.release>
@@ -17,14 +17,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <issueManagement>
-        <url>https://discord.gg/craftaro</url>
-        <system>Discord server</system>
-    </issueManagement>
-
     <scm>
-        <url>https://github.com/craftaro/EpicQuests</url>
-        <connection>scm:git:git://github.com/craftaro/EpicQuests.git</connection>
+        <url>https://github.com/Songoda-Plugins/EpicQuests</url>
+        <connection>scm:git:git://github.com/Songoda-Plugins/EpicQuests.git</connection>
     </scm>
 
     <build>
@@ -50,7 +45,7 @@
 
                             <relocations>
                                 <relocation>
-                                    <pattern>com.craftaro.core</pattern>
+                                    <pattern>com.songoda.core</pattern>
                                     <shadedPattern>com.songoda.epicquests.core</shadedPattern>
                                 </relocation>
                             </relocations>
@@ -67,7 +62,7 @@
                                 </filter>
 
                                 <filter>
-                                    <artifact>com.craftaro:CraftaroCore</artifact>
+                                    <artifact>com.songoda:SongodaCore</artifact>
                                     <excludeDefaults>false</excludeDefaults>
                                     <includes>
                                         <include>**/nms/v*/**</include>
@@ -101,8 +96,8 @@
 
     <repositories>
         <repository>
-            <id>craftaro-minecraft-plugins</id>
-            <url>https://repo.craftaro.com/repository/minecraft-plugins/</url>
+            <id>songoda-minecraft-plugins</id>
+            <url>https://repo.songoda.com/repository/minecraft-plugins/</url>
         </repository>
 
         <repository>
@@ -123,9 +118,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.craftaro</groupId>
-            <artifactId>CraftaroCore</artifactId>
-            <version>3.8.0-SNAPSHOT</version>
+            <groupId>com.songoda</groupId>
+            <artifactId>SongodaCore</artifactId>
+            <version>3.9.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
 

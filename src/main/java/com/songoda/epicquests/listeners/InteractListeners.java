@@ -1,6 +1,6 @@
 package com.songoda.epicquests.listeners;
 
-import com.craftaro.core.compatibility.ServerVersion;
+import com.songoda.core.compatibility.ServerVersion;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.Region.ActiveSelection;
 import com.songoda.epicquests.dialog.Dialog;

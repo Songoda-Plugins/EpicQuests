@@ -1,9 +1,9 @@
 package com.songoda.epicquests.gui;
 
-import com.craftaro.core.gui.Gui;
-import com.craftaro.core.gui.GuiUtils;
-import com.craftaro.core.input.ChatPrompt;
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.core.gui.Gui;
+import com.songoda.core.gui.GuiUtils;
+import com.songoda.core.input.ChatPrompt;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.story.quest.reward.rewards.CommandReward;
 import com.songoda.epicquests.utils.TextUtils;
