@@ -1,7 +1,7 @@
 package com.songoda.epicquests.story.quest.requirement;
 
-import com.craftaro.core.data.SavesData;
-import com.craftaro.core.gui.Gui;
+import com.songoda.core.data.SavesData;
+import com.songoda.core.gui.Gui;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.dialog.AttachedSpeech;
 import com.songoda.epicquests.dialog.Speech;

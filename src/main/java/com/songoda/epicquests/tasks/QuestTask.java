@@ -1,8 +1,8 @@
 package com.songoda.epicquests.tasks;
 
-import com.craftaro.core.compatibility.CompatibleParticleHandler;
-import com.craftaro.core.utils.LocationUtils;
-import com.craftaro.core.utils.TextUtils;
+import com.songoda.core.compatibility.CompatibleParticleHandler;
+import com.songoda.core.utils.LocationUtils;
+import com.songoda.core.utils.TextUtils;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.Region.Region;
 import com.songoda.epicquests.settings.Settings;
@@ -14,7 +14,7 @@ import com.songoda.epicquests.story.quest.Quest;
 import com.songoda.epicquests.story.quest.action.ActiveAction;
 import com.songoda.epicquests.story.quest.action.actions.RightClickBlock;
 import com.songoda.epicquests.story.quest.action.actions.RightClickCitizen;
-import com.craftaro.third_party.com.cryptomorin.xseries.XSound;
+import com.songoda.third_party.com.cryptomorin.xseries.XSound;
 import net.citizensnpcs.api.CitizensAPI;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -149,7 +149,7 @@ public class QuestTask extends BukkitRunnable {
                     bossBar.setTitle(plugin.getLocale().getMessage("general.bossbar.amount")
                             .processPlaceholder("title", title)
                             .processPlaceholder("current", current)
-                            .processPlaceholder("goal", goal).getMessage());
+                            .processPlaceholder("goal", goal).toText());
                     bossBar.setProgress((double) current / goal);
                 }
             }

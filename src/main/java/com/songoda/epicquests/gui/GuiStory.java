@@ -1,13 +1,13 @@
 package com.songoda.epicquests.gui;
 
-import com.craftaro.core.gui.Gui;
-import com.craftaro.core.gui.GuiUtils;
-import com.craftaro.core.input.ChatPrompt;
-import com.craftaro.core.utils.TextUtils;
+import com.songoda.core.gui.Gui;
+import com.songoda.core.gui.GuiUtils;
+import com.songoda.core.input.ChatPrompt;
+import com.songoda.core.utils.TextUtils;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.story.Story;
 import com.songoda.epicquests.story.quest.Quest;
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.ClickType;
 

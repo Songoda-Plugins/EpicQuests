@@ -1,8 +1,8 @@
 package com.songoda.epicquests.gui;
 
-import com.craftaro.core.gui.CustomizableGui;
-import com.craftaro.core.gui.GuiUtils;
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.core.gui.CustomizableGui;
+import com.songoda.core.gui.GuiUtils;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.story.Story;
 import com.songoda.epicquests.story.StoryManager;
@@ -83,27 +83,27 @@ public class GuiBook extends CustomizableGui {
         List<String> lore = new ArrayList<>();
         if (completed) {
             lore.addAll(Arrays.asList(
-                    this.plugin.getLocale().getMessage("book.quests.ongoing.lore1").getMessage(),
-                    this.plugin.getLocale().getMessage("book.quests.ongoing.lore2").getMessage(),
+                    this.plugin.getLocale().getMessage("book.quests.ongoing.lore1").toText(),
+                    this.plugin.getLocale().getMessage("book.quests.ongoing.lore2").toText(),
                     "",
-                    this.plugin.getLocale().getMessage("book.quests.ongoing.click").getMessage()));
+                    this.plugin.getLocale().getMessage("book.quests.ongoing.click").toText()));
         } else {
             lore.addAll(Arrays.asList(
-                    this.plugin.getLocale().getMessage("book.quests.completed.lore1").getMessage(),
-                    this.plugin.getLocale().getMessage("book.quests.completed.lore2").getMessage(),
-                    this.plugin.getLocale().getMessage("book.quests.completed.lore3").getMessage(),
+                    this.plugin.getLocale().getMessage("book.quests.completed.lore1").toText(),
+                    this.plugin.getLocale().getMessage("book.quests.completed.lore2").toText(),
+                    this.plugin.getLocale().getMessage("book.quests.completed.lore3").toText(),
                     "",
                     this.plugin.getLocale().getMessage("book.quests.completed.amount")
-                            .processPlaceholder("amount", Long.toString(amountCompleted)).getMessage(),
+                            .processPlaceholder("amount", Long.toString(amountCompleted)).toText(),
                     "",
-                    this.plugin.getLocale().getMessage("book.quests.completed.click").getMessage()));
+                    this.plugin.getLocale().getMessage("book.quests.completed.click").toText()));
 
         }
 
         setButton("quests", 5, 5, GuiUtils.createButtonItem(XMaterial.BOOK,
-                        this.plugin.getLocale().getMessage(completed ? "book.quests.ongoing.title" : "book.quests.completed.title").getMessage(), lore),
+                        this.plugin.getLocale().getMessage(completed ? "book.quests.ongoing.title" : "book.quests.completed.title").toText(), lore),
                 (event) -> {
-                    setTitle(this.plugin.getLocale().getMessage(completed ? "book.title.regular" : "book.title.completed").getMessage());
+                    setTitle(this.plugin.getLocale().getMessage(completed ? "book.title.regular" : "book.title.completed").toText());
                     showQuests(story, !completed);
                 });
 
@@ -127,15 +127,15 @@ public class GuiBook extends CustomizableGui {
                 if (objective.getStartPosition() <= currentPosition || completed)
                     objectivesLore.add(this.plugin.getLocale().getMessage(
                                     isObjectiveCompleted ? "book.quest.objective.completed" : (objective.getStartPosition() < currentPosition ? "book.quest.objective.current" : "book.quest.objective.incomplete"))
-                            .processPlaceholder("objective", objective.getTitle()).getMessage());
+                            .processPlaceholder("objective", objective.getTitle()).toText());
             }
             if (this.storyPlayer.isFocused(quest)) {
-                objectivesLore.addAll(Arrays.asList("", this.plugin.getLocale().getMessage("book.quest.focused").getMessage()));
+                objectivesLore.addAll(Arrays.asList("", this.plugin.getLocale().getMessage("book.quest.focused").toText()));
             }
 
             setButton(i, GuiUtils.createButtonItem(XMaterial.PAPER,
                     this.plugin.getLocale().getMessage("book.quest.title")
-                            .processPlaceholder("name", quest.getName()).getMessage(),
+                            .processPlaceholder("name", quest.getName()).toText(),
                     objectivesLore), (event) -> {
                 if (!questCompleted) {
                     if (!storyPlayer.isFocused(quest)) {

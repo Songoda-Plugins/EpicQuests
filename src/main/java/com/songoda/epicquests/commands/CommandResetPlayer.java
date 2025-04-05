@@ -1,6 +1,6 @@
 package com.songoda.epicquests.commands;
 
-import com.craftaro.core.commands.AbstractCommand;
+import com.songoda.core.commands.AbstractCommand;
 import com.songoda.epicquests.EpicQuests;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;

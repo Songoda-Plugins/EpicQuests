@@ -1,8 +1,8 @@
 package com.songoda.epicquests.gui;
 
-import com.craftaro.core.gui.Gui;
-import com.craftaro.core.gui.GuiUtils;
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.core.gui.Gui;
+import com.songoda.core.gui.GuiUtils;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.dialog.Speech;
 import com.songoda.epicquests.story.quest.Objective;
@@ -57,7 +57,7 @@ public class GuiRequirements extends Gui {
             }
             setButton(i + 9, GuiUtils.createButtonItem(XMaterial.PAPER, requirement.getType().name(),
                             TextUtils.formatText("&7" + requirement.getDescription().toLowerCase()),
-                            com.craftaro.core.utils.TextUtils.formatText("&fRejection Message: &6" + (citizenName == null ? "NONE" : citizenName)),
+                            com.songoda.core.utils.TextUtils.formatText("&fRejection Message: &6" + (citizenName == null ? "NONE" : citizenName)),
                     "",
                     TextUtils.formatText("&fRight-Click: &6to attach dialog"),
                     TextUtils.formatText("&fLeft-Click: &6to setup")),

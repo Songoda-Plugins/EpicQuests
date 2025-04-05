@@ -1,11 +1,11 @@
 package com.songoda.epicquests;
 
-import com.craftaro.core.SongodaCore;
-import com.craftaro.core.SongodaPlugin;
-import com.craftaro.core.commands.CommandManager;
-import com.craftaro.core.configuration.Config;
-import com.craftaro.core.data.DatabaseManager;
-import com.craftaro.core.gui.GuiManager;
+import com.songoda.core.SongodaCore;
+import com.songoda.core.SongodaPlugin;
+import com.songoda.core.commands.CommandManager;
+import com.songoda.core.configuration.Config;
+import com.songoda.core.data.DatabaseManager;
+import com.songoda.core.gui.GuiManager;
 import com.songoda.epicquests.Region.SelectionManager;
 import com.songoda.epicquests.dialog.DialogManager;
 import com.songoda.epicquests.listeners.BlockListeners;
@@ -19,7 +19,7 @@ import com.songoda.epicquests.story.quest.action.ActionManager;
 import com.songoda.epicquests.tasks.QuestTask;
 import com.songoda.epicquests.tasks.RegionTask;
 import com.songoda.epicquests.tasks.VisualizeTask;
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
 import com.songoda.epicquests.commands.CommandAdmin;
 import com.songoda.epicquests.commands.CommandQuestBook;
 import com.songoda.epicquests.commands.CommandResetPlayer;

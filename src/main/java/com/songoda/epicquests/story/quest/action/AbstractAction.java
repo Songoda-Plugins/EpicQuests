@@ -1,6 +1,6 @@
 package com.songoda.epicquests.story.quest.action;
 
-import com.craftaro.third_party.com.cryptomorin.xseries.XSound;
+import com.songoda.third_party.com.cryptomorin.xseries.XSound;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.data.ActionDataStore;
 import com.songoda.epicquests.dialog.Speech;

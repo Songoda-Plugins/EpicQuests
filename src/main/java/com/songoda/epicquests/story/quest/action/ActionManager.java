@@ -1,14 +1,14 @@
 package com.songoda.epicquests.story.quest.action;
 
-import com.craftaro.core.data.LoadsData;
-import com.craftaro.core.data.SQLSelect;
-import com.craftaro.core.utils.ItemSerializer;
+import com.songoda.core.data.LoadsData;
+import com.songoda.core.data.SQLSelect;
+import com.songoda.core.utils.ItemSerializer;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.story.quest.Objective;
-import com.craftaro.third_party.com.cryptomorin.xseries.XMaterial;
-import com.craftaro.third_party.org.jooq.DSLContext;
-import com.craftaro.third_party.org.jooq.impl.DSL;
-import com.craftaro.third_party.org.jooq.impl.SQLDataType;
+import com.songoda.third_party.com.cryptomorin.xseries.XMaterial;
+import com.songoda.third_party.org.jooq.DSLContext;
+import com.songoda.third_party.org.jooq.impl.DSL;
+import com.songoda.third_party.org.jooq.impl.SQLDataType;
 import com.songoda.epicquests.story.quest.action.actions.*;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

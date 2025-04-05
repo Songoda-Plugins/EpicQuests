@@ -1,7 +1,7 @@
 package com.songoda.epicquests.data;
 
-import com.craftaro.core.data.SavesData;
-import com.craftaro.core.input.ChatPrompt;
+import com.songoda.core.data.SavesData;
+import com.songoda.core.input.ChatPrompt;
 import com.songoda.epicquests.EpicQuests;
 import com.songoda.epicquests.gui.GuiObjective;
 import com.songoda.epicquests.story.quest.Objective;
