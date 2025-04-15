@@ -3,7 +3,7 @@
 
     <groupId>com.songoda</groupId>
     <artifactId>EpicQuests-Plugin</artifactId>
-    <version>2.0.0</version>
+    <version>2.1.0</version>
 
     <name>EpicQuests</name>
     <description>Create quests and stories your way with our extremely customizable and simplistically designed system</description>
